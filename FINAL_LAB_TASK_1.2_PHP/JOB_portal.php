@@ -2,7 +2,7 @@
 
 if(isset($_POST["inssert"]))
 
-echo
+ mysql_query("insert into portal values('$_POST[Employername]','$_POST[company name]','$_POST[contact num]','$_POST[username]'.'$_POST[password]')");
 
 ?>
 
